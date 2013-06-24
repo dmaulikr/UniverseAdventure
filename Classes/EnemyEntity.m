@@ -28,8 +28,9 @@
 	NSString* enemyFrameName = nil;
 	NSString* bulletFrameName;
 	float shootFrequency = 6.0f;
-	initialHitPoints = 1;
-	
+
+    /** 初始化生命值 */
+    initialHitPoints = 1;
 	switch (type)
 	{
 		case EnemyTypeUFO:

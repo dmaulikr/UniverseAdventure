@@ -40,6 +40,7 @@
 
 -(void) update:(ccTime)delta
 {
+    /** 动态血条状态 */
 	if (self.parent.visible)
 	{
 		NSAssert([self.parent isKindOfClass:[EnemyEntity class]], @"not a EnemyEntity");
